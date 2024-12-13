@@ -1,5 +1,5 @@
 <!-- Profile Banner -->
-<img src="banner1.png" alt="Profile Banner" style="width:100%; height:auto;">
+<img src="banner1" alt="Profile Banner" style="width:100%; height:auto;">
 
 <h1 align="center">👋 Hi, I'm Sabari Vadivelan</h1>
 <p align="center">I'm a passionate developer focused on AI, machine learning, and software development and tech enthusiast from India</p>
@@ -53,7 +53,7 @@
 ### 🔥 **Streak and Contributions**
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sabari2005&theme=radical&hide_border=true" alt="Streak Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sabari2005&theme=tokyonight" alt="Profile Summary">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sabari2005&theme=tokyonight" alt="Profile Summary">
 </p>
 
 ---
