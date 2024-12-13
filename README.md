@@ -71,7 +71,7 @@
   <a href="https://twitter.com/your-twitter">
     <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
   </a>
-  <a href="https://stackoverflow.com/users/your-stackoverflow-id">
+  <a href="[https://stackoverflow.com/users/your-stackoverflow-id](https://stackoverflow.com/users/24237122/sabari-vadivelan?tab=profile)">
     <img src="https://img.shields.io/badge/StackOverflow-%23FE7A16.svg?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow">
   </a>
 </p>
