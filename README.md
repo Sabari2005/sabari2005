@@ -1,5 +1,5 @@
 <!-- Profile Banner -->
-<img src="banner1" alt="Profile Banner" style="width:100%; height:auto;">
+<img src="banner3" alt="Profile Banner" style="width:100%; height:auto;">
 
 <h1 align="center">👋 Hi, I'm Sabari Vadivelan</h1>
 <p align="center">A passionate developer and tech enthusiast from India</p>
