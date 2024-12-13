@@ -15,10 +15,10 @@
   <a href="https://github.com/Sabari2005">
     <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://www.linkedin.com/in/your-linkedin">
+  <a href="https://www.linkedin.com/in/sabari-vadivelan-s?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BUcYQZ9q%2BQzqrrwuh6JCOCw%3D%3D">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:sabari132005@gmail.com.com">
     <img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
@@ -59,22 +59,23 @@
 
 ### 🤝 **Connect with Me**
 <p align="center">
-<a href="https://discord.gg/YOUR_DISCORD_ID">
+  <a href="https://discord.gg/1102493010538799225">
     <img src="https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
   </a>
-  <a href="https://t.me/YOUR_TELEGRAM_ID">
+  <a href="https://t.me/s_a_b_ari">
     <img src="https://img.shields.io/badge/Telegram-%232CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:sabari132005@gmail.com">
     <img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://twitter.com/your-twitter">
     <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
   </a>
-  <a href="[https://stackoverflow.com/users/your-stackoverflow-id](https://stackoverflow.com/users/24237122/sabari-vadivelan?tab=profile)">
+  <a href="https://stackoverflow.com/users/24237122/sabari-vadivelan?tab=profile">
     <img src="https://img.shields.io/badge/StackOverflow-%23FE7A16.svg?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow">
   </a>
 </p>
+
 
 ---
 
