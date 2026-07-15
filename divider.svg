@@ -1,0 +1,18 @@
+<svg viewBox="0 0 1200 20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="9" width="1200" height="2" fill="url(#divLine)"/>
+  
+  <!-- Decorative brackets -->
+  <path d="M 50 15 L 45 15 L 45 5 L 50 5" fill="none" stroke="#f59e0b" stroke-width="1.5" />
+  <path d="M 1150 15 L 1155 15 L 1155 5 L 1150 5" fill="none" stroke="#f59e0b" stroke-width="1.5" />
+  
+  <!-- Center tech dot -->
+  <circle cx="600" cy="10" r="3" fill="#f59e0b" />
+</svg>

@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&amp;family=Fira+Code:wght@400;600&amp;display=swap');
+      
+      .bg { fill: #050b14; }
+      
+      .title { font-family: 'Rajdhani', sans-serif; font-weight: 700; fill: #ffffff; letter-spacing: 6px; }
+      .data { font-family: 'Fira Code', monospace; font-weight: 400; fill: #38bdf8; font-size: 11px; }
+      .accent { fill: #f59e0b; }
+      
+      /* Rotations */
+      .spin-slow { animation: spin 20s linear infinite; transform-origin: 600px 180px; }
+      .spin-fast-rev { animation: spinRev 8s linear infinite; transform-origin: 600px 180px; }
+      .spin-med { animation: spin 12s linear infinite; transform-origin: 600px 180px; }
+      
+      @keyframes spin { 100% { transform: rotate(360deg); } }
+      @keyframes spinRev { 100% { transform: rotate(-360deg); } }
+      
+      /* Data stream */
+      .stream { animation: slideUp 4s linear infinite; }
+      @keyframes slideUp { 0% { transform: translateY(20px); opacity:0;} 50% {opacity:1;} 100% { transform: translateY(-40px); opacity:0;} }
+      
+      /* Pulse */
+      .pulse-ring { animation: expand 3s ease-out infinite; transform-origin: 600px 180px; }
+      @keyframes expand {
+        0% { r: 150px; opacity: 0.8; stroke-width: 1; }
+        100% { r: 250px; opacity: 0; stroke-width: 8; }
+      }
+      
+      .blink { animation: flash 1.5s step-end infinite; }
+      @keyframes flash { 50% { opacity: 0.2; } }
+      
+      .neon-glow {
+        filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.6));
+      }
+    </style>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#050b14" stop-opacity="0" />
+    </radialGradient>
+    
+    <pattern id="hexGrid" width="30" height="51.96" patternUnits="userSpaceOnUse" patternTransform="scale(0.5)">
+      <path d="M15 0 L30 8.66 L30 25.98 L15 34.64 L0 25.98 L0 8.66 Z" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="100%" height="100%" fill="url(#hexGrid)" />
+
+  <!-- Center Holographic Core -->
+  <circle cx="600" cy="180" r="300" fill="url(#coreGlow)" />
+  
+  <g stroke="#38bdf8" fill="none">
+    <!-- Outer Ring -->
+    <g class="spin-slow">
+      <circle cx="600" cy="180" r="220" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="10 5 2 5" />
+      <path d="M 600 40 A 140 140 0 0 1 740 180" stroke="#38bdf8" stroke-width="3" class="neon-glow" />
+      <path d="M 600 320 A 140 140 0 0 1 460 180" stroke="#38bdf8" stroke-width="3" class="neon-glow" />
+    </g>
+    
+    <!-- Pulse Ring -->
+    <circle cx="600" cy="180" r="120" stroke="#f59e0b" class="pulse-ring" fill="none" />
+    
+    <!-- Inner Rings -->
+    <g class="spin-med">
+      <circle cx="600" cy="180" r="160" stroke-width="1.5" stroke-dasharray="40 20" stroke-opacity="0.6" />
+      <circle cx="600" cy="20" r="4" fill="#f59e0b" stroke="none" class="neon-glow" />
+      <circle cx="600" cy="340" r="2" fill="#38bdf8" stroke="none" />
+    </g>
+    <g class="spin-fast-rev">
+      <circle cx="600" cy="180" r="130" stroke-width="2" stroke-dasharray="10 40" stroke="#f59e0b" opacity="0.8" />
+    </g>
+  </g>
+
+  <!-- Left UI Panel -->
+  <g transform="translate(50, 80)">
+    <path d="M 0 0 L 30 0 L 40 10 L 220 10" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.6" />
+    <rect x="0" y="20" width="180" height="150" fill="#0f172a" stroke="#38bdf8" stroke-width="1" opacity="0.8" />
+    <text x="15" y="45" class="data">SYS_INTEGRITY: 99.9%</text>
+    <text x="15" y="65" class="data">MEM_ALLOC: OPTIMAL</text>
+    <text x="15" y="85" class="data accent blink">AI_CORE: ACTIVE</text>
+    
+    <!-- Sine wave simulation -->
+    <path d="M 15 125 Q 35 105 55 125 T 95 125 T 135 125 T 165 125" fill="none" stroke="#38bdf8" stroke-width="2" class="neon-glow" />
+    <line x1="15" y1="125" x2="165" y2="125" stroke="#38bdf8" stroke-dasharray="2 2" opacity="0.4" />
+  </g>
+
+  <!-- Right UI Panel -->
+  <g transform="translate(950, 130)">
+    <path d="M 200 0 L 170 0 L 160 -10 L -20 -10" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.6" />
+    <rect x="10" y="0" width="180" height="130" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1" opacity="0.8" />
+    <text x="25" y="25" class="data">NEURAL_NET: SYNCED</text>
+    <text x="25" y="45" class="data">THREAT_LEVEL: ZERO</text>
+    
+    <g class="stream">
+      <text x="25" y="80" class="data">0x8F44 ... OK</text>
+      <text x="25" y="100" class="data">0x9A21 ... OK</text>
+      <text x="25" y="120" class="data">0x1B44 ... OK</text>
+    </g>
+    
+    <!-- Vertical Data Bar -->
+    <rect x="175" y="15" width="4" height="100" fill="#050b14" stroke="#38bdf8" stroke-width="1" />
+    <rect x="175" y="45" width="4" height="70" fill="#38bdf8" class="neon-glow" />
+  </g>
+
+  <!-- Center Typography -->
+  <g transform="translate(600, 180)">
+    <!-- High-tech Brackets -->
+    <path d="M -290 -40 L -310 -40 L -310 40 L -290 40" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.7" />
+    <path d="M 290 -40 L 310 -40 L 310 40 L 290 40" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.7" />
+    
+    <!-- Name -->
+    <text x="0" y="12" text-anchor="middle" class="title" font-size="56">
+      SABARI VADIVELAN
+    </text>
+    
+    <!-- Role -->
+    <text x="0" y="65" text-anchor="middle" class="data" font-size="14" fill="#f59e0b" letter-spacing="4">
+      [ AI ENGINEER &amp; SEC_OPS ]
+    </text>
+  </g>
+  
+  <!-- Frame corners -->
+  <path d="M 15 30 L 15 15 L 30 15" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M 1185 30 L 1185 15 L 1170 15" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M 15 330 L 15 345 L 30 345" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M 1185 330 L 1185 345 L 1170 345" fill="none" stroke="#38bdf8" stroke-width="3" />
+</svg>
