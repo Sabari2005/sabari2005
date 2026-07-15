@@ -173,16 +173,7 @@ A research project in building domain-specialized language models for cybersecur
 <br/>
 
 <div align="center">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td align="center" width="50%">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sabari2005&layout=donut&theme=transparent&hide_border=true&title_color=38bdf8&text_color=c9d1d9" />
-</td>
-<td align="center" width="50%">
 <img src="https://streak-stats.demolab.com?user=sabari2005&theme=transparent&hide_border=true&fire=f59e0b&ring=38bdf8&currStreakLabel=38bdf8&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&background=0d1117&stroke=38bdf8" />
-</td>
-</tr>
-</table>
 </div>
 
 <br/>
