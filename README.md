@@ -182,6 +182,22 @@ A research project in building domain-specialized language models for cybersecur
 
 
 
+<br/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Rajdhani&weight=600&size=24&duration=4000&pause=1000&color=38BDF8&center=true&vCenter=true&width=350&lines=[+ACTIVITY_MATRIX+];[+CONTRIBUTION_SNAKE+]" alt="snake" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sabari2005/sabari2005/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sabari2005/sabari2005/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/sabari2005/sabari2005/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+<br/>
+
 <div align="center">
   <img src="./footer.svg" width="100%"/>
 </div>
