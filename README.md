@@ -164,11 +164,7 @@ A research project in building domain-specialized language models for cybersecur
 
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sabari2005&theme=transparent&no-frame=true&no-bg=true&margin-w=15&title-color=38bdf8&text-color=c9d1d9" width="100%" />
-</div>
 
-<br/>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sabari2005&bg_color=transparent&color=38bdf8&line=38bdf8&point=f59e0b&area_color=transparent&area=true&hide_border=true&custom_title=Contribution%20Activity" width="100%" />
@@ -180,7 +176,7 @@ A research project in building domain-specialized language models for cybersecur
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td align="center" width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabari2005&layout=compact&theme=transparent&hide_border=true&title_color=38bdf8&text_color=c9d1d9" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sabari2005&layout=compact&theme=transparent&hide_border=true&title_color=38bdf8&text_color=c9d1d9" />
 </td>
 <td align="center" width="50%">
 <img src="https://streak-stats.demolab.com?user=sabari2005&theme=transparent&hide_border=true&fire=f59e0b&ring=38bdf8&currStreakLabel=38bdf8&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&background=0d1117&stroke=38bdf8" />
