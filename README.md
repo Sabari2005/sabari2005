@@ -100,7 +100,7 @@ Currently building at the intersection of **LLMs**, **autonomous agents**, and *
 <tr>
 <td valign="top" width="50%">
 
-<a href="https://sabari-vadivelan.vercel.app/"><img src="./banner_observe.png" width="100%" /></a>
+<a href="https://github.com/Sabari2005/AI-Proctoring-and-Examination-Platform"><img src="./banner_observe.png" width="100%" /></a>
 
 ### 🔭 Observe
 
@@ -119,7 +119,7 @@ An end-to-end intelligent examination platform powered by autonomous AI agents. 
 <img src="https://skillicons.dev/icons?i=py,opencv,react,ts&theme=dark" height="28" />
 <br/><br/>
 
-<a href="https://sabari-vadivelan.vercel.app/"><img src="./wire_observe.svg" height="40"/></a>
+<a href="https://github.com/Sabari2005/AI-Proctoring-and-Examination-Platform"><img src="./wire_observe.svg" height="40"/></a>
 
 </td>
 <td valign="top" width="50%">
