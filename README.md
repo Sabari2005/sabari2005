@@ -179,6 +179,12 @@ A research project in building domain-specialized language models for cybersecur
 <br/>
 
 <div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=sabari2005&theme=onedark&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=4&row=2" />
+</div>
+
+<br/>
+
+<div align="center">
   <img src="./divider.svg" width="100%"/>
 </div>
 
